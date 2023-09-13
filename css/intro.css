@@ -1,0 +1,53 @@
+
+.intro{
+    background-color: transparent;
+    margin-top: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 15%;
+    padding: 1%;
+    justify-content: center;
+}
+
+.fresher-tag{
+    text-align: center;
+    justify-content: center;
+    padding: 5px;
+    margin-left: 6%;
+    height: 25px;
+    width: 100px;
+    border-radius: 3px;
+    background-color: rgb(51, 255, 0);
+}
+
+.tag-text{
+    font-size: 18px;
+    text-align: center;
+    padding: 3px;
+}
+
+.intro-content{
+    margin-top: 1%;
+    margin-left: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    justify-content: center;
+}
+
+.intro-text{
+    background-color: transparent;
+    color: white;
+}
+
+.intro-text h1{
+    padding: 10px;
+    font-size: 55px;
+    color: rgb(255, 0, 115);
+}
+
+.intro-text h3{
+    padding: 10px;
+    font-style: italic;
+    font-size: 30px;
+}
+
