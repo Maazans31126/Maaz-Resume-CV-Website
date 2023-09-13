@@ -1,0 +1,62 @@
+.edu{
+    background-color: rgb(226, 226, 226);
+    display: flex;
+}
+
+.edu-title{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+}
+
+.edu-title-text{
+    margin: 0;
+}
+
+.edu-title-text h2{
+    color: rgb(255, 0, 115);
+    margin-left: 6%;
+}
+
+.edu-content{
+    display: flex;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.edu-text{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 15px;   
+    padding: 30px;
+    width: auto;
+}
+
+.edu-text h5{
+    font-size: medium;
+    letter-spacing: 1px;
+    padding: 10px;
+}
+
+.edu-text h1{
+    font-size: 25px;
+    padding: 15px 10px 5px 10px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+.edu-text h3{
+    font-size: 18px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    padding: 5px 10px 15px 10px;
+}
+
+.edu-text p{
+    font-size: 16px;
+    padding: 10px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    text-align: justify;
+}

@@ -4,13 +4,16 @@
 }
 
 body{
-    background-color: black;
-    margin: 0;
+   background-color: white;
 }
 
 .header{
-    margin: 1%;
-    padding: 1%;
+    margin: 0;
+    padding: 10px;
+    padding-top: 15px;
+    height: 50px;
+    justify-content: center;
+    background-color: black;
 }
 
 .header-nav{
@@ -20,6 +23,7 @@ body{
 
 .nav-menu{
     display: inline-flex;
+    position: fixed;
 }
 
 .nav-list{
@@ -44,4 +48,8 @@ body{
 
 .nav-list-title:hover{
     color: white;
+}
+
+.nav-list-title:focus{
+    color: rgb(255, 0, 115);
 }
