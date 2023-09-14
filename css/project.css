@@ -1,0 +1,100 @@
+.project{
+    background-color: white;
+    margin: 0;
+}
+
+.project-title{
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 10%;
+}
+
+.project-text{
+    padding: 5% 15% 2% 15%;
+    text-align: center;
+}
+
+.project-text h4{
+    color: black;
+    letter-spacing: 2px;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.project-text span{
+    color: rgb(225, 0, 115);
+    padding: 10px;
+    letter-spacing: -2px;
+}
+
+.project-text h1{
+    color: black;
+    font-size: 50px;
+    font-weight: 100;
+    padding: 40px 5px 10px 5px;
+}
+
+.project-content{
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 10%;
+    padding-bottom: 5%;
+    display: grid;
+    grid-template-columns: 70vh 70vh;
+    grid-column-gap: 10%;
+
+}
+
+.project-content-box{
+    background-color: rgba(225, 0, 116, 0.118);
+    padding: 40px;
+    margin-bottom: 20%;
+    border-radius: 15px;
+    position: relative;
+    display: inline-block;
+}
+
+.project-content-box img{
+    width: auto;
+    height: 200px;
+}
+
+.project-content-box:hover img{
+    opacity: 0.6;
+}
+
+.project-content-box a{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(225, 0, 115);
+    position: absolute;
+    top: 65.4%;
+    left: 88.5%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.project-content-box a i{
+    margin-top: 9px;
+}
+
+.project-content-box:hover a{
+    opacity: 1;
+}
+
+.project-content-box h2{
+    font-size: 20px;
+    font-weight: 150;
+    padding: 15px;
+    text-align: center;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+.project-content-box h2 span{
+    color: rgb(225, 0, 115);
+}

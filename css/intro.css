@@ -61,6 +61,11 @@
     font-style: italic;
 }
 
+.more-about-me:hover{
+    color: rgb(255, 0, 115);
+    font-weight: bold;
+}
+
 .more-about-me span{
     margin-left: 10px;
     color: rgb(255, 0, 115);

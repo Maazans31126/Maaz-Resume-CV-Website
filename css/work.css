@@ -1,58 +1,57 @@
-.edu{
-    background-color: rgb(226, 226, 226);
+.work{
+    background-color: white;
     display: flex;
     padding: 0 10% 5% 10%;
 }
 
-.edu-title{
+.work-title{
     padding-left: 10%;
     padding-right: 10%;
     padding-top: 5%;
-    background-color: rgb(226, 226, 226);
+    background-color: white;
 }
 
-.edu-title-text{
+.work-title-text{
     margin: 0;
 }
 
-.edu-title-text h2{
+.work-title-text h2{
     color: rgb(255, 0, 115);
     margin-left: 6%;
 }
 
-.edu-content{
+.work-content{
+    display: flex;
     margin-top: 4%;
-    margin-left: 5%;
+    margin-left: 6%;
     display: grid;
-    grid-template-columns: 79vh 79vh;
-    grid-column-gap: 2%;
+    grid-template-columns: 157vh;
+    grid-column-gap: 6%;
 }
 
-.edu-text{
+.work-text{
     background-color: white;
     border: 1px solid black;
     border-radius: 15px;   
     padding: 20px;
     width: auto;
     box-shadow: 8px 8px 15px black;
-    margin-left: 3%;
-    margin-right: 3%;
 }
 
-.edu-text:hover{
+.work-text:hover{
     border: 2px solid rgb(255, 0, 115);
     transform: translateY(-15px);
     box-shadow: 8px 8px 15px rgb(167, 0, 75);
 }
 
-.edu-text h5{
+.work-text h5{
     font-size: 15px;
     font-weight: 100;
     letter-spacing: 2px;
     padding: 10px;
 }
 
-.edu-text h1{
+.work-text h1{
     font-size: 30px;
     padding: 15px 10px 5px 10px;
     letter-spacing: 1.5px;
@@ -60,7 +59,7 @@
     color: rgb(255, 0, 115);
 }
 
-.edu-text h3{
+.work-text h3{
     font-size: 18px;
     color: rgb(102, 102, 102);
     letter-spacing: 2px;
@@ -69,14 +68,14 @@
     padding: 5px 10px 15px 10px;
 }
 
-.edu-text h3 span{
+.work-text h3 span{
     color: rgb(255, 0, 115);
     font-size: 18px;
     font-weight: lighter;
     letter-spacing: -1.5px;
 }
 
-.edu-text p{
+.work-text p{
     font-size: 16px;
     padding: 10px;
     line-height: 20px;
