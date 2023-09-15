@@ -15,9 +15,16 @@
     margin: 0;
 }
 
+.work-title-text span{
+    color: black;
+    margin-left: 6%;
+    letter-spacing: -2px;
+}
+
 .work-title-text h2{
     color: rgb(255, 0, 115);
     margin-left: 6%;
+    margin-top: 2%;
 }
 
 .work-content{
@@ -83,3 +90,5 @@
     word-spacing: 2px;
     text-align: justify;
 }
+
+

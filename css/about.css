@@ -8,8 +8,15 @@
     padding-top: 5%;
 }
 
+.about-me-content span{
+    color: black;
+    margin-left: 6%;
+    letter-spacing: -2px;
+}
+
 .about-me-content h2{
     margin-left: 6%;
+    margin-top: 2%;
     color: rgb(255, 0, 115);
 }
 
@@ -54,3 +61,5 @@
     letter-spacing: 1px;
     word-spacing: 3px;
 }
+
+

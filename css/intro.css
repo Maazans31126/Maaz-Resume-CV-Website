@@ -5,6 +5,7 @@
     justify-content: center;
     background-image: url("/img/intro-background-img-2.jpg");
     background-size: cover;
+    
 }
 
 .fresher-tag{
@@ -70,4 +71,5 @@
     margin-left: 10px;
     color: rgb(255, 0, 115);
 }
+
 

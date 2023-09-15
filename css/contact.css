@@ -6,12 +6,24 @@
     padding: 10% 10% 5% 10%;
 }
 
+.contact-text{
+    padding: 0;
+}
+
+.contact-text span{
+    color: rgb(198, 0, 89);
+    margin-left: 1%;
+    letter-spacing: -2px;
+}
+
 .contact-title h4{
     color: white;
     letter-spacing: 2px;
     word-spacing: 3px;
     font-size: 18px;
     padding: 10px;
+    margin-top: 2%;
+    font-weight: 100;
 }
 
 .contact-content{
@@ -89,6 +101,12 @@
     padding: 6% 0 5% 0;
 }
 
+.contact-info-box a:hover,
+.contact-info-box a:focus,
+.contact-info-box a:active{
+    color: rgb(225, 0, 115);
+}
+
 .copyright{
     text-align: center;
     padding: 20px;
@@ -115,3 +133,5 @@
 .copyright p a:active{
     text-decoration-color: white;
 }
+
+

@@ -15,9 +15,16 @@
     margin: 0;
 }
 
+.edu-title-text span{
+    color: rgb(198, 0, 89);
+    margin-left: 6%;
+    letter-spacing: -2px;
+}
+
 .edu-title-text h2{
     color: rgb(255, 0, 115);
     margin-left: 6%;
+    margin-top: 2%;
 }
 
 .edu-content{
@@ -84,3 +91,5 @@
     word-spacing: 2px;
     text-align: justify;
 }
+
+
