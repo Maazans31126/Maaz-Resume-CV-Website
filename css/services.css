@@ -40,7 +40,7 @@
     margin-left: 10%;
     margin-right: 10%;
     padding-bottom: 10%;
-    border-top: 0.5px solid rgb(226, 226, 226);
+    border-top: 0.1px solid rgb(73, 73, 73);
     display: grid;
     grid-template-columns: 50vh 50vh 50vh;
     grid-column-gap: 3%;

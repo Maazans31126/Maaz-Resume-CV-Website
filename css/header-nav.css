@@ -39,7 +39,7 @@ body{
     display: block;
 }
 
-.nav-list-title{
+.nav-list a{
     padding: 3mm;
     text-decoration: none;
     font-style: inherit;
@@ -47,3 +47,10 @@ body{
     color: rgb(182, 182, 182);
     font-weight: 800;
 }
+
+.nav-list a:hover,
+.nav-list a:focus,
+.nav-list a:active{
+    color: white;
+}
+
