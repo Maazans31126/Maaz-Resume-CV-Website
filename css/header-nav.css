@@ -54,4 +54,27 @@ body{
     color: white;
 }
 
+.menu-icon {
+    cursor: pointer;
+    display: none;
+}
 
+
+/* Media query for mobile devices (screen width between 480px and 767px) */
+@media (max-width: 767px) {
+    /* Add your mobile-specific styles here */
+
+    .nav-list{
+        display: none;
+    }
+    
+    .menu-icon {
+        display: block;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        color: #fff;
+        font-size: 24px;
+      }
+
+}
