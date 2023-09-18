@@ -1,5 +1,6 @@
 .about{
     background-color: white;
+    position: relative;
 }
 
 .about-me-content{
@@ -32,25 +33,36 @@
 }
 
 .btn-about-me{
-    margin-left: 15%;
+    margin-left: 5%;
     margin-top: 3%;
     margin-bottom: 5%;
     display: flex;
+    justify-content: center;
 }
 
 .btn-about-me a{
-    background-color: rgb(51, 255, 0);
+    background-color: white;
     padding: 7px;
-    border: 1px solid rgb(51, 255, 0);
-    border-radius: 15px;
+    border: 1px solid rgb(255, 0, 115);
+    border-radius: 30px;
+    display: inline-block;
     text-align: center;
-    width: 153vh;
+    font-size: 20px;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    width: 80vh;
     height: auto;
+    cursor: pointer;
+    transition: width 1s;
+    transition: 0.8s linear;
 }
 
+.btn-about-me a:hover,
+.btn-about-me a:focus,
 .btn-about-me a:hover{
-    transform: translateY(-10px);
-    border: 1px solid black;
+    width: 150vh;
+    background-color: rgb(255, 0, 115);
+    color: white;
 }
 
 .btn-about-me-download-cv{
@@ -61,5 +73,6 @@
     letter-spacing: 1px;
     word-spacing: 3px;
 }
+
 
 

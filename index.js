@@ -1,9 +1,4 @@
-function toggleMenu() {
-    var navlist = document.getElementById("nav-list");
-    
-    if (nav-list.style.display === "block") {
-        navlist.style.display = "none";
-    } else {
-        navlist.style.display = "block";
-    }
+function showCodeangoProject() {
+    var popup = document.getElementById("popup-content");
+    popup.classList.toggle("show");
   }

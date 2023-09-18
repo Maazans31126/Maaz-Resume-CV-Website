@@ -32,7 +32,7 @@
     margin-top: 4%;
     margin-left: 6%;
     display: grid;
-    grid-template-columns: 157vh;
+    grid-template-columns: 76vh 76vh;
     grid-column-gap: 6%;
 }
 
@@ -42,13 +42,22 @@
     border-radius: 15px;   
     padding: 20px;
     width: auto;
-    box-shadow: 8px 8px 15px black;
+    box-shadow: 
+        0px -25px 20px -20px rgba(0,0,0,0.45), 
+        25px 0px 20px -20px rgba(0,0,0,0.45), 
+        0px 25px 20px -20px rgba(0,0,0,0.45), 
+        -25px 0px 20px -20px rgba(0,0,0,0.45);
+    transition: 0.3s linear;
 }
 
 .work-text:hover{
-    border: 2px solid rgb(255, 0, 115);
-    transform: translateY(-15px);
-    box-shadow: 8px 8px 15px rgb(167, 0, 75);
+    border: 1px solid rgb(255, 0, 115);
+    box-shadow: 
+        0px -25px 20px -20px rgba(167, 0, 75), 
+        25px 0px 20px -20px rgba(167, 0, 75), 
+        0px 25px 20px -20px rgba(167, 0, 75), 
+        -25px 0px 20px -20px rgba(167, 0, 75);
+    transform: scale(1.05);
 }
 
 .work-text h5{
@@ -82,13 +91,32 @@
     letter-spacing: -1.5px;
 }
 
+.work-text:hover h5,
+.work-text:hover h1,
+.work-text:hover h3,
+.work-text:hover h3 span{
+    display: none;
+}
+
 .work-text p{
-    font-size: 16px;
+    font-size: 12px;
     padding: 10px;
     line-height: 20px;
     letter-spacing: 1px;
     word-spacing: 2px;
     text-align: justify;
+    display: none;
+}
+
+.work-text p span{
+    color: rgb(255, 0, 115);
+    font-size: 18px;
+    font-weight: lighter;
+    letter-spacing: -1.5px;
+}
+
+.work-text:hover p{
+    display: block;
 }
 
 

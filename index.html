@@ -42,7 +42,6 @@
                     <li><a href="#contact" class="nav-list-title">SAY HELLO</a></li>
                 </ul>
             </div>
-            <a href="#" class="menu-icon" onclick="toggleMenu()"><i class="fa fa-bars"></i></a>
         </nav>
     </header>
 
@@ -67,7 +66,7 @@
         </div>
 
         <div class="btn-more-about-me">
-            <a href="#about" class="more-about-me" type="text">SCROLL FOR MORE<span>__________</span></a>
+            <a href="#about" class="more-about-me" type="text" title="Click to Scroll...">SCROLL FOR MORE<span>__________</span></a>
         </div>
     </section>
 
@@ -76,13 +75,13 @@
     <section class="about" id="about">
 
         <div class="about-me-content">
-            <span>-----------------------</span>
+            <span>--------------------------</span>
             <h2>ABOUT ME</h2>
             <p>I embarked on my educational journey with a diploma in Computer Science Engineering, graduating in 2020 with a commendable 80% score. Eager to advance my knowledge, I secured admission to pursue a B-Tech in Computer Science Engineering, with an anticipated graduation in 2023. My academic pursuits were complemented by a rewarding 7-month experience at Amazon Logistics, where I navigated various aspects of the logistics process as a problem solver. Additionally, during my B-Tech studies, I completed a transformative 2-month full-stack development internship at Codeango Private Limited. This diverse background has not only enriched my understanding of computer science but also cultivated practical skills in problem-solving and software development. As I approach the next phase of my career, I am enthusiastic about applying these experiences and skills to contribute effectively in the tech industry.</p>
         </div>
 
         <div class="btn-about-me">
-            <a href="/docs/Maaz's Resume.pdf" class="btn-about-me-download-cv" type="text" target="_blank">DOWNLOAD CV</a>
+            <a href="/docs/Maaz's Resume.pdf" class="btn-about-me-download-cv" id="download-btn" title="Click to download CV" type="text" target="_blank">DOWNLOAD CV</a>
         </div>
 
     <!--Education Title is Here-->
@@ -104,14 +103,21 @@
                 <h5>JANUARY 2020 - PRESENT</h5>
                 <h1>B-Tech - Degree</h1>
                 <h3><span>------</span> Hi-Tech Institute of Technology</h3>
-                <p>I enrolled in the B.Tech Computer Science Engineering program at Hi-Tech Institute of Technology in Aurangabad, Maharashtra in 2020 and am currently pursuing my studies.</p>
+                <p><span>------</span> I enrolled in the B.Tech Computer Science Engineering program at Hi-Tech Institute of Technology in Aurangabad, Maharashtra in 2020 and am currently pursuing my studies.</p>
             </div>
         
             <div class="edu-text">
                 <h5>JULY 2018 - NOVEMBER 2020</h5>
                 <h1>Diploma - Degree</h1>
                 <h3><span>------</span> Jamia Polytechnic Institute</h3>
-                <p>I completed my Diploma in Computer Science Engineering from Jamia Polytechnic Institute in Akkalkuwa in 2020, achieving a commendable 80.46% score after my 10th-grade education.</p>
+                <p><span>------</span> I completed my Diploma in Computer Science Engineering from Jamia Polytechnic Institute in Akkalkuwa in 2020, achieving a commendable 80.46% score after my 10th-grade education.</p>
+            </div>
+
+            <div class="edu-text">
+                <h5>JULY 2018 - NOVEMBER 2020</h5>
+                <h1>Diploma - Degree</h1>
+                <h3><span>------</span> Jamia Polytechnic Institute</h3>
+                <p><span>------</span> I completed my Diploma in Computer Science Engineering from Jamia Polytechnic Institute in Akkalkuwa in 2020, achieving a commendable 80.46% score after my 10th-grade education.</p>
             </div>
 
         </div>
@@ -136,8 +142,14 @@
                 <h5>FEBRUARY 2023 - APRIL 2023</h5>
                 <h1>Full Stack Web Developement Internship</h1>
                 <h3><span>------</span> Codeango Private Limited..</h3>
-                <p>During my two-month full-stack web development internship at Condango Private Limited in Aurangabad, I honed my skills in a wide range of technologies including HTML, CSS, JavaScript, Bootstrap, React.js, Node.js, and MongoDB. This intensive experience equipped me with a well-rounded skill set essential for modern web development.</p>
-                <p>I demonstrated my versatility by actively participating in the creation of Condango's temporary official website using the Wix platform. This hands-on involvement highlighted my ability to adapt and work proficiently with different web development tools and technologies, enhancing my overall expertise in the field.</p>
+                <p><span>------</span> During my two-month internship at Condango Private Limited in Aurangabad, I sharpened my skills in HTML, CSS, JavaScript, Bootstrap, React.js, Node.js, and MongoDB, gaining a versatile skill set crucial for modern web development. I showcased my adaptability by actively contributing to the development of Condango's temporary official website on Wix, underscoring my proficiency with various web development tools and technologies, and enhancing my overall expertise in the field.</p>
+            </div>
+
+            <div class="work-text">
+                <h5>FEBRUARY 2023 - APRIL 2023</h5>
+                <h1>Full Stack Web Developement Internship</h1>
+                <h3><span>------</span> Codeango Private Limited..</h3>
+                <p><span>------</span> During my two-month internship at Condango Private Limited in Aurangabad, I sharpened my skills in HTML, CSS, JavaScript, Bootstrap, React.js, Node.js, and MongoDB, gaining a versatile skill set crucial for modern web development. I showcased my adaptability by actively contributing to the development of Condango's temporary official website on Wix, underscoring my proficiency with various web development tools and technologies, and enhancing my overall expertise in the field.</p>
             </div>
         </div>
     </section>
@@ -196,20 +208,35 @@
         </div>
 
         <div class="project-content">
-            <div class="project-content-box">
+        
+            <div class="project-content-box"  onclick="showCodeangoProject">
+
+                <span class="popup-content" id="popup-content">
+                    <img src="/img/project-screenshort/codeango-home.png" alt="Codeango Home Page">
+                    <img src="/img/project-screenshort/codeango-courses.png" alt="Codeango Courses Page">
+                    <img src="/img/project-screenshort/codeango-events.png" alt="Codeango Events Page">
+                    <img src="/img/project-screenshort/codeango-careers.png" alt="Codeango Careers Page">
+                    <img src="/img/project-screenshort/codeango-about.png" alt="Codeango About-Us Page">
+                    <img src="/img/project-screenshort/codeango-contact.png" alt="Codeango Contact Page">
+                    <img src="/img/project-screenshort/codeango-footer.png" alt="Codeango Footer on All Pages">
+                </span>
+
                 <img src="/img/project-1.png" alt="Maaz Ansari Resume Website">
+                <span class="plus-icon">+</span>
                 <a href="#"><i class="fas fa-link"></i></a>
                 <h2>Website Resume <span>- Personal Project</span></h2>
             </div>
 
             <div class="project-content-box">
                 <img src="/img/project-2.png" alt="Online Software Training Provider Institute Website">
+                <span class="plus-icon">+</span>
                 <a href="https://codeango-official-web.netlify.app/" target="_blank"><i class="fas fa-link"></i></a>
                 <h2>Institute Website <span>- Company Project</span></h2>
             </div>
 
             <div class="project-content-box">
                 <img src="/img/project-1.png" alt="Maaz Ansari Resume Website">
+                <span class="plus-icon">+</span>
                 <a href="#"><i class="fas fa-link"></i></a>
                 <h2>Website Resume <span>- Personal Project</span></h2>
             </div>

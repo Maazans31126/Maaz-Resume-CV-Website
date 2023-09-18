@@ -3,7 +3,7 @@
     margin: 0;
     padding: 10%;
     justify-content: center;
-    background-image: url("/img/intro-background-img-2.jpg");
+    background-image: url("/img/intro-background-img-1.jpg");
     background-size: cover;
 }
 
@@ -59,32 +59,17 @@
     color: rgb(182, 182, 182);
     font-size: 14px;
     font-style: italic;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    transition: 0.5s linear;
 }
 
 .more-about-me:hover{
     color: rgb(255, 0, 115);
-    font-weight: bold;
 }
 
 .more-about-me span{
     margin-left: 10px;
     color: rgb(255, 0, 115);
-}
-
-
-/* Media query for laptops (screen width between 992px and 1199px) */
-@media (min-width: 992px) and (max-width: 1199px) {
-    /* Add your laptop-specific styles here */
-
-    
-}
-
-/* Media query for desktops (screen width greater than 1200px) */
-@media (min-width: 1200px) {
-    /* Add your desktop-specific styles here */
-}
-
-/* Media query for tablets (screen width between 768px and 991px) */
-@media (min-width: 768px) and (max-width: 991px) {
-    /* Add your tablet-specific styles here */
+    letter-spacing: -2px;
 }

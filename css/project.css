@@ -56,11 +56,29 @@
 
 .project-content-box img{
     width: auto;
-    height: 200px;
+    height: 188px;
+    justify-content: center;
+    transition: opacity 0.3s ease-in-out;
 }
 
 .project-content-box:hover img{
-    opacity: 0.6;
+    opacity: 0.4;
+}
+
+.project-content-box .plus-icon{
+    color: white;
+    position: absolute;
+    font-size: 50px;
+    font-weight: 100;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    top: 41%;
+    left: 50%;
+}
+
+.project-content-box:hover .plus-icon{
+    opacity: 1;
 }
 
 .project-content-box a{
@@ -71,8 +89,8 @@
     height: 40px;
     background-color: rgb(225, 0, 115);
     position: absolute;
-    top: 65.4%;
-    left: 88.5%;
+    top: 64.1%;
+    left: 87.7%;
     transform: translate(-50%, -50%);
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
@@ -97,6 +115,63 @@
 
 .project-content-box h2 span{
     color: rgb(225, 0, 115);
+}
+
+/* Codeango Project Popup Window Start Here */
+
+.popup-content{
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+.popup-content img{
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+}
+
+.popup-content img::after{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup-content .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+}
+  
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
 }
 
 
